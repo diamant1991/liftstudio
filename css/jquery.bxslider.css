@@ -125,6 +125,10 @@ ul.bxslider {
   left: 10px;
   background: url(../images/prev-slide.png) no-repeat;
 }
+.news-carousel .bx-wrapper .bx-prev{
+  left: 25px;
+  background: url(../images/news-prev.png)no-repeat;
+}
 .bx-wrapper .bx-prev:hover,
 .bx-wrapper .bx-next:hover {
   opacity: 1;
@@ -132,6 +136,10 @@ ul.bxslider {
 .bx-wrapper .bx-next {
   right: 10px;
   background: url(../images/next-slide.png) no-repeat;
+}
+.news-carousel .bx-wrapper .bx-next {
+  right: 25px;
+  background: url(../images/next-news.png)no-repeat;
 }
 .bx-wrapper .bx-controls-direction a {
   position: absolute;
@@ -221,3 +229,4 @@ ul.bxslider {
 .main-slider .bx-pager {
   display: none;
 }
+

@@ -6,7 +6,7 @@
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
-	<title>title</title>
+	<title>Главная</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="keywords" content="" >
 	<meta name="description" content="">
@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="css/jquery.bxslider.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/main.less">
+	<link rel="stylesheet" href="css/media.css">
 	<script src="js/less.min.js"></script>
 	<script src="js/modernizr-2.8.3.min.js"></script>	
 </head>
@@ -30,27 +31,35 @@
 					<a href="#" class="navbar-brand">
 						<img src="images/logo.png" height="75" width="61" alt="">
 					</a>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
 				</div>
-				<ul class="nav navbar-nav">
-					 <li><a href="#" class="active">услуги</a></li>
-					 <li><a href="#">о нас</a></li>
-					 <li><a href="#">портфолио</a></li>
-					 <li><a href="#">блог</a></li>
-					 <li><a href="#">отзывы</a></li>
-					 <li><a href="#">контакты</a></li>
-				</ul>
-				<div class="nav navbar-nav navbar-right">
-					<div class="telephone">
-						8(495) 507-86-18
+				<div class="collapse navbar-collapse" id="responsive-menu">
+					<ul class="nav navbar-nav">
+						 <li><a href="#" class="active">услуги</a></li>
+						 <li><a href="#">о нас</a></li>
+						 <li><a href="#">портфолио</a></li>
+						 <li><a href="#">блог</a></li>
+						 <li><a href="#">отзывы</a></li>
+						 <li><a href="#">контакты</a></li>
+					</ul>
+				</div>
+					<div class="nav navbar-nav navbar-right">
+						<div class="telephone">
+							8(495) 507-86-18
+						</div>
+						<a href="#submit-wrapper" class="leave-request">оставить заявку</a>
 					</div>
-					<a href="#" class="leave-request">оставить заявку</a>
-				</div>
+				
 			</div>
 		</div>
 	</div>
 </div><!-- top menu -->
 
-<div class="container-fluid main-slider">
+<div class="container-fluid main-slider hidden-xs">
 	<div class="row">
 		<div class="container slide-container">
 			<div class="row">
@@ -120,7 +129,7 @@
 		<section class="container-fluid services-item">
 			<div class="row">
 				<div class="container services-container">
-					<div class="col-md-4 serv-block">
+					<div class="col-sm-4 serv-block">
 						<div class="serv-visible">
 							<div class="serv-img">
 								<div class="serv-cell">
@@ -140,7 +149,7 @@
 							<a href="#" class="more">Подробнее</a>
 						</div>
 					</div>
-					<div class="col-md-4 serv-block">
+					<div class="col-sm-4 serv-block">
 						<div class="serv-visible">
 							<div class="serv-img">
 								<div class="serv-cell">
@@ -160,7 +169,7 @@
 							<a href="#" class="more">Подробнее</a>
 						</div>
 					</div>
-					<div class="col-md-4 serv-block">
+					<div class="col-sm-4 serv-block">
 						<div class="serv-visible">
 							<div class="serv-img">
 								<div class="serv-cell">
@@ -186,7 +195,7 @@
 		<section class="container-fluid services-item">
 			<div class="row">
 				<div class="container services-container">
-					<div class="col-md-4 serv-block">
+					<div class="col-sm-4 serv-block">
 						<div class="serv-visible">
 							<div class="serv-img">
 								<div class="serv-cell">
@@ -206,7 +215,7 @@
 							<a href="#" class="more">Подробнее</a>
 						</div>
 					</div>
-					<div class="col-md-4 serv-block">
+					<div class="col-sm-4 serv-block">
 						<div class="serv-visible">
 							<div class="serv-img">
 								<div class="serv-cell">
@@ -226,7 +235,7 @@
 							<a href="#" class="more">Подробнее</a>
 						</div>
 					</div>
-					<div class="col-md-4 serv-block">
+					<div class="col-sm-4 serv-block">
 						<div class="serv-visible">
 							<div class="serv-img">
 								<div class="serv-cell">
@@ -483,9 +492,7 @@
 				<ul class="review-bx">
 					<li class="clearfix">
 						<div class="review-logo">
-							<div class="review-cell">
-								<img src="images/review-logo.jpg" height="174" width="153" alt="">
-							</div>
+							<img src="images/logo-review.png" height="235" width="236" alt="">
 						</div>
 						<div class="review-desc">
 							<div class="review-desc-cell">
@@ -497,9 +504,7 @@
 					</li>
 					<li class="clearfix">
 						<div class="review-logo">
-							<div class="review-cell">
-								<img src="images/review-logo.jpg" height="174" width="153" alt="">
-							</div>
+							<img src="images/logo-review.png" height="235" width="236" alt="">
 						</div>
 						<div class="review-desc">
 							<div class="review-desc-cell">
@@ -518,19 +523,170 @@
 	</div>
 </div><!-- clients review -->
 
-<div class="container-fluid submit">
+<div class="container-fluid submit" id="submit-wrapper">
 	<div class="row">
 		<div class="container">
 			<div class="submit-form">
 				<form>
 					<fieldset>
 						<h1>оставить заявку</h1>
+						<div class="input-block">
+							<input type="text" placeholder="Ваше имя *" class="input-text">
+						</div>
+						<div class="input-block">
+							<input type="text" placeholder="Телефон *" class="input-text">
+						</div>
+						<div class="input-block">
+							<input type="text" placeholder="Эл. почта *" class="input-text">
+						</div>
+						<div class="input-block">
+							<input type="text" placeholder="Прикрепить техническое задание (если оно есть) *" class="input-text">
+						</div>
+						<div class="input-block">
+							<textarea placeholder="Коммментарии" class="my-textarea"></textarea>
+						</div>
+						<div class="input-block">
+							<input type="submit" value="получить предложение на сайт" class="submit-btn">
+						</div>
 					</fieldset>
 				</form>
 			</div>
 		</div>
 	</div>
+</div><!-- submit -->
+
+<div class="container-fluid news">
+	<div class="row">
+		<div class="container">
+			<header class="title-header">
+				<h1 class="main-h1">Новости</h1>
+			</header>
+			<section class="news-carousel">
+				<ul class="news-bx">
+					<li>
+						<div class="news-block">
+							<div class="news-img">
+								<img src="images/news-1.jpg" height="207" width="288" alt="">
+							</div>
+							<div class="news-desc">
+								<div class="date">23 октября 2014</div>
+								<h4>редизайн сайтов</h4>
+								<div class="news-text">
+									<div class="text-cell">
+										Первое и самое сильное впечатление о компании пользователь...
+									</div>
+								</div>
+							</div>
+							<a href="#" class="more">читать дальше</a>
+						</div>
+					</li>
+					<li>
+						<div class="news-block">
+							<div class="news-img">
+								<img src="images/news-2.jpg" height="207" width="288" alt="">
+							</div>
+							<div class="news-desc">
+								<div class="date">23 октября 2014</div>
+								<h4>редизайн сайтов</h4>
+								<div class="news-text">
+									<div class="text-cell">
+										Первое и самое сильное впечатление о компании пользователь... 
+									</div>
+								</div>
+							</div>
+							<a href="#" class="more">читать дальше</a>
+						</div>
+					</li>
+					<li>
+						<div class="news-block">
+							<div class="news-img">
+								<img src="images/news-3.jpg" height="207" width="288" alt="">
+							</div>
+							<div class="news-desc">
+								<div class="date">23 октября 2014</div>
+								<h4>редизайн сайтов</h4>
+								<div class="news-text">
+									<div class="text-cell">
+										Первое и самое сильное впечатление о компании пользователь...
+									</div>
+								</div>
+							</div>
+							<a href="#" class="more">читать дальше</a>
+						</div>
+					</li>
+				</ul>
+			</section>
+		</div>
+	</div>
+</div><!-- news -->
+
+<div class="container-fluid contacts">
+	<div class="row">
+		<div class="container contacts-wrapper">
+			<header>
+				<h1 class="main-h1">контакты</h1>
+			</header>
+			<section class="contact-item clearfix">
+			
+					<div class="contact-block">
+						<h4>наши координаты</h4>
+						<div class="contact-text">
+							<div class="contact-cell">
+								<div class="foot-tel">8 (495) 507-86-18</div>
+								<a href="#" class="get-call">заказать обратный звонок</a>
+							</div>
+						</div>
+						
+					</div>
+				
+				
+					<div class="contact-block">
+						<h4>адрес</h4>
+						<div class="contact-text">
+							<div class="contact-cell">
+								<div class="adress">
+									м. Октябрьская, <br>
+									ул. Большая Якиманка, <br>
+									д. 35 стр. 1
+								</div>
+							</div>
+						</div>
+					</div>
+				
+			
+					<div class="contact-block">
+						<h4>мы в соцсетях</h4>
+						<div class="contact-text">
+							<div class="contact-cell">
+								<ul class="social clearfix">
+									<li>
+										<a href="#">
+											<img src="images/facebook.png" height="51" width="51" alt="">
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="images/vk.png" height="51" width="52" alt="">
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="images/instagram.png" height="51" width="51" alt="">
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				
+			</section>
+			<div class="col-lg-12 copyright">
+				© 2000 - 2014 LIFTSTUDIO
+			</div>
+		</div>
+	</div>
 </div>
+
 
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -561,6 +717,16 @@
 	  auto:true,
      pause: 5000
 	});
+	$('.news-bx').bxSlider({
+    slideWidth: 288,
+    minSlides: 1,
+    maxSlides: 3,
+    moveSlides: 1,
+    pager: false,
+    slideMargin: 30
+  });
+
 </script>
+<script src="js/script.js"></script>
 </body>
 </html>

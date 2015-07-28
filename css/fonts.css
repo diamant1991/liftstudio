@@ -64,3 +64,45 @@
          url('../fonts/HelveticaNeueThin.ttf') format('truetype'),
          url('../fonts/HelveticaNeueThin.svg#HelveticaNeueThin') format('svg');
 }
+
+@font-face {
+    font-family: 'HelveticaNeueCyrThin';
+    src: url('../fonts/HelveticaNeueCyrThin.eot');
+    src: url('../fonts/HelveticaNeueCyrThin.eot') format('embedded-opentype'),
+         url('../fonts/HelveticaNeueCyrThin.woff2') format('woff2'),
+         url('../fonts/HelveticaNeueCyrThin.woff') format('woff'),
+         url('../fonts/HelveticaNeueCyrThin.ttf') format('truetype'),
+         url('../fonts/HelveticaNeueCyrThin.svg#HelveticaNeueCyrThin') format('svg');
+}
+
+@font-face {
+    font-family: 'pf_din_text_cond_prothin';
+    src: url('../fonts/pf_dintextcondprothin-webfont.eot');
+    src: url('../fonts/pf_dintextcondprothin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pf_dintextcondprothin-webfont.woff2') format('woff2'),
+         url('../fonts/pf_dintextcondprothin-webfont.woff') format('woff'),
+         url('../fonts/pf_dintextcondprothin-webfont.ttf') format('truetype'),
+         url('../fonts/pf_dintextcondprothin-webfont.svg#pf_din_text_cond_prothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFDinTextProThin';
+    src: url('../fonts/PFDinTextCompProThin.eot');
+    src: url('../fonts/PFDinTextCompProThin.eot') format('embedded-opentype'),
+         url('../fonts/PFDinTextCompProThin.woff2') format('woff2'),
+         url('../fonts/PFDinTextCompProThin.woff') format('woff'),
+         url('../fonts/PFDinTextCompProThin.ttf') format('truetype'),
+         url('../fonts/PFDinTextCompProThin.svg#PFDinTextCompProThin') format('svg');
+}
+
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('../fonts/MyriadProRegular.eot');
+    src: url('../fonts/MyriadProRegular.eot') format('embedded-opentype'),
+         url('../fonts/MyriadProRegular.woff2') format('woff2'),
+         url('../fonts/MyriadProRegular.woff') format('woff'),
+         url('../fonts/MyriadProRegular.ttf') format('truetype'),
+         url('../fonts/MyriadProRegular.svg#MyriadProRegular') format('svg');
+}
