@@ -106,3 +106,23 @@
          url('../fonts/MyriadProRegular.ttf') format('truetype'),
          url('../fonts/MyriadProRegular.svg#MyriadProRegular') format('svg');
 }
+
+@font-face {
+    font-family: 'HelveticaNeueLightItalic';
+    src: url('../fonts/HelveticaNeueLightItalic.eot');
+    src: url('../fonts/HelveticaNeueLightItalic.eot') format('embedded-opentype'),
+         url('../fonts/HelveticaNeueLightItalic.woff2') format('woff2'),
+         url('../fonts/HelveticaNeueLightItalic.woff') format('woff'),
+         url('../fonts/HelveticaNeueLightItalic.ttf') format('truetype'),
+         url('../fonts/HelveticaNeueLightItalic.svg#HelveticaNeueLightItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueUltraLight';
+    src: url('../fonts/HelveticaNeueUltraLight.eot');
+    src: url('../fonts/HelveticaNeueUltraLight.eot') format('embedded-opentype'),
+         url('../fonts/HelveticaNeueUltraLight.woff2') format('woff2'),
+         url('../fonts/HelveticaNeueUltraLight.woff') format('woff'),
+         url('../fonts/HelveticaNeueUltraLight.ttf') format('truetype'),
+         url('../fonts/HelveticaNeueUltraLight.svg#HelveticaNeueUltraLight') format('svg');
+}
