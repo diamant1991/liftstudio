@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/jquery.bxslider.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/main.less">
 	<link rel="stylesheet" href="css/media.css">
@@ -197,6 +198,131 @@
 	</div>
 </div>
 
+<div class="container-fluid our-clients our-clients-second">
+	<div class="row">
+		<div class="container clients-wrapper">
+			<header>
+				<h1>наши клиенты</h1>
+			</header>
+			<section class="logo-carousel">
+				<ul class="logo-bx">
+					<li>
+						<div class="logo-block">
+							<div class="logo-cell">
+								<img src="images/jet.png" height="38" width="110" alt="">
+							</div>
+						</div>
+						<div class="logo-title">
+							Jet
+						</div>
+					</li>
+					<li>
+						<div class="logo-block">
+							<div class="logo-cell">
+								<img src="images/ubuntu.png" height="71" width="85" alt="">
+							</div>
+						</div>
+						<div class="logo-title">
+							Ubuntu
+						</div>
+					</li>
+					<li>
+						<div class="logo-block">
+							<div class="logo-cell">
+								<img src="images/berlin.png" height="84" width="73" alt="">
+							</div>
+						</div>
+						<div class="logo-title">
+							Berlin
+						</div>
+					</li>
+					<li>
+						<div class="logo-block">
+							<div class="logo-cell">
+								<img src="images/vinci.png" height="59" width="101" alt="">
+							</div>
+						</div>
+						<div class="logo-title">
+							Vinci
+						</div>
+					</li>
+					<li>
+						<div class="logo-block">
+							<div class="logo-cell">
+								<img src="images/irssi.png" height="50" width="115" alt="">
+							</div>
+						</div>
+						<div class="logo-title">
+							Irssi
+						</div>
+					</li>
+					<li>
+						<div class="logo-block">
+							<div class="logo-cell">
+								<img src="images/jet.png" height="38" width="110" alt="">
+							</div>
+						</div>
+						<div class="logo-title">
+							Jet
+						</div>
+					</li>
+					<li>
+						<div class="logo-block">
+							<div class="logo-cell">
+								<img src="images/ubuntu.png" height="71" width="85" alt="">
+							</div>
+						</div>
+						<div class="logo-title">
+							Ubuntu
+						</div>
+					</li>
+					<li>
+						<div class="logo-block">
+							<div class="logo-cell">
+								<img src="images/berlin.png" height="84" width="73" alt="">
+							</div>
+						</div>
+						<div class="logo-title">
+							Berlin
+						</div>
+					</li>
+					<li>
+						<div class="logo-block">
+							<div class="logo-cell">
+								<img src="images/vinci.png" height="59" width="101" alt="">
+							</div>
+						</div>
+						<div class="logo-title">
+							Vinci
+						</div>
+					</li>
+					<li>
+						<div class="logo-block">
+							<div class="logo-cell">
+								<img src="images/irssi.png" height="50" width="115" alt="">
+							</div>
+						</div>
+						<div class="logo-title">
+							Irssi
+						</div>
+					</li>
+				</ul>
+			</section>
+		</div>
+	</div>
+</div><!-- our clients -->
+
+<div class="container-fluid view-portfolio">
+	<div class="row">
+		<div class="container main-container">
+				<a href="#" class="red-link">посмотреть портфолио</a>
+		</div>
+	</div>
+</div>
+
+
+
+
 <div class="container-fluid submit flowers" id="submit-wrapper">
 	<div class="row">
 		<div class="container">
@@ -318,10 +444,20 @@
 
 
 <script src="js/jquery.js"></script>
-<script>
-	
-</script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script>
+	$('.logo-bx').bxSlider({
+    slideWidth: 192,
+    minSlides: 2,
+    maxSlides: 5,
+    moveSlides: 5,
+    pager: false,
+    slideMargin: 10,
+    auto:true,
+    pause: 5000
+  });
+</script>
 <script src="js/script.js"></script>
 </body>
 </html>

@@ -93,7 +93,13 @@
 	.maps{
 		height: 550px;
 	}
-
+	.history-block{
+		padding: 0 40px;
+	}
+	.designing-container{
+		padding-left: 200px !important;
+		padding-right: 200px !important;
+	}
 }
 @media (max-width: 991px) {
   .navbar-brand {
@@ -206,6 +212,24 @@
   .maps{
 		height: 450px;
 	}
+	.history-block{
+		padding: 0 15px;
+	}
+	.team-block .title{
+		font-size: 20px;
+	}
+	.team-block .name{
+		font-size: 14px;
+	}
+	.my-review-text{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	 .promo-item{
+	 	padding-left: 15px !important;
+	 	padding-right: 15px !important;
+	 }
+
 }
 @media (max-width: 767px) {
   .navbar-right {
@@ -523,8 +547,76 @@
    .maps{
 		height: 350px;
 	}
+	.team-block{
+		width: 33.3%;
+		margin-bottom: 10px;
+		padding-left: 15px;
+	}
+	.principles-list{
+		font-size: 24px;
+		margin-top: 40px;
+	}
+	.view-portfolio{
+		padding: 40px 15px;
+	}
+	.my-review-logo{
+		width: 100%;
+		float: none;
+	}
+	.my-review-text{
+		width:100%;
+		float: none;
+		text-align: center;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.my-review-text a{
+		float: none;
+		margin: auto;
+		margin-top: 30px;
+	}
+	.other-second-menu .navbar-collapse{
+		padding-left: 15px;
+	}
+	.promo-wrapper .icon-cell,
+	.promo-block .price{
+		padding-left: 0;
+	}
+	.promo-block{
+		width: 100% !important;
+		float: none;
+		text-align: center;
+	}
+	.promo-block .title{
+		width: 100% !important;
+	}
+	.adver-img{
+		height: 90px;
+	}
+	.advertising-wrapper .col-sm-3,
+	.promo-text{
+		margin-bottom: 15px;
+	}
+	.designing-container{
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
 }
 @media (max-width: 500px) {
+	.about-item{
+		margin-left: -10px;
+	}
+	.about-block{
+		margin-left: 10px;
+	}
+	.red-link{
+		height: 50px;
+		line-height: 50px;
+		width:280px;
+	}
+	.principles-list{
+		font-size: 18px;
+	}
   .main-slider .bx-wrapper .bx-controls-direction a {
     width: 30px;
     height: 30px;
@@ -591,6 +683,11 @@
   .main-slider .bx-controls-direction {
     width: 305px;
     margin-left: -152.5px;
+  }
+  .team-block{
+  	width: 50%;
+  	text-align: center;
+  	padding-left: 0;
   }
 }
 @media (max-width: 420px) {
@@ -682,5 +779,10 @@
     width: 210px;
     height: 45px;
     line-height: 45px;
+  }
+  .info-slide .order-btn{
+  		width: 215px;
+  		height: 45px;
+  		line-height: 45px;
   }
 }
