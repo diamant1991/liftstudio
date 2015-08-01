@@ -126,3 +126,23 @@
          url('../fonts/HelveticaNeueUltraLight.ttf') format('truetype'),
          url('../fonts/HelveticaNeueUltraLight.svg#HelveticaNeueUltraLight') format('svg');
 }
+
+@font-face {
+    font-family: 'UniversCondensedMedium';
+    src: url('../fonts/univers.eot');
+    src: url('../fonts/univers.eot') format('embedded-opentype'),
+         url('../fonts/univers.woff2') format('woff2'),
+         url('../fonts/univers.woff') format('woff'),
+         url('../fonts/univers.ttf') format('truetype'),
+         url('../fonts/univers.svg#univers') format('svg');
+}
+
+@font-face {
+    font-family: 'heliosc';
+    src: url('../fonts/heliosc.eot');
+    src: url('../fonts/heliosc.eot') format('embedded-opentype'),
+         url('../fonts/heliosc.woff2') format('woff2'),
+         url('../fonts/heliosc.woff') format('woff'),
+         url('../fonts/heliosc.ttf') format('truetype'),
+         url('../fonts/heliosc.svg#heliosc') format('svg');
+}

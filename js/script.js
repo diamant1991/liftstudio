@@ -6,6 +6,19 @@ $('input,textarea').blur(function(){
   $(this).attr('placeholder',$(this).data('placeholder'));
 });
 
+$('form').bind('submit', function(event) {
+    $(this).find('[type=text]').each(function() {
+      if(!$(this).val().length) { 
+         event.preventDefault();
+         $(this).addClass('error');
+      }
+      else{
+         $(this).removeClass('error');
+      }
+    });
+});
+
+
 $(function(){
     $(window).scroll(function() {
         var top = $(document).scrollTop();
