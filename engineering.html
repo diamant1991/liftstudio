@@ -6,7 +6,7 @@
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
-	<title>tech support</title>
+	<title>engineering</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="keywords" content="" >
 	<meta name="description" content="">
@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/jquery.bxslider.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/main.less">
 	<link rel="stylesheet" href="css/media.css">
@@ -69,8 +70,8 @@
 					<ul class="clearfix">
 						<li><a href="#">создание сайтов</a></li>
 						<li><a href="#">продвижение сайтов</a></li>
-						<li><a href="#" class="active">техническая поддержка сайтов</a></li>
-						<li><a href="#">проектирование и аудит сайтов</a></li>
+						<li><a href="#">техническая поддержка сайтов</a></li>
+						<li><a href="#" class="active">проектирование и аудит сайтов</a></li>
 						<li><a href="#">мобильное приложения</a></li>
 						<li><a href="#">дизайн,логотипы  фирменный стиль</a></li>
 					</ul>
@@ -80,155 +81,147 @@
 	</div>
 </div><!-- second menu -->
 
-<div class="container-fluid tech">
-	<div class="row">
-		<div class="container main-container">
-			<header>
-				<h1>техническая поддержка сайтов</h1>
-			</header>
+<section class="design">
+	<header>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="container">
+					<h1 class="main-h1">проектирование и аудит сайтов</h1>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="logo-wrapper">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="container designing-container">
+					<div class="icon-block col-sm-4">
+						<div class="row">
+							<div class="title">проектирование</div>
+							<a href="#engineering">
+								<div class="logo-img">
+									<div class="icon-cell">
+										<img src="images/designing.png" height="64" width="68" alt="">
+									</div>
+								</div>
+							</a>
+							<div class="price">от 10 000 руб.</div>
+						</div>
+					</div>
+					<div class="icon-block col-sm-4">
+						<div class="row">
+							<div class="title">технический <br>аудит сайта</div>
+							<a href="#audit">
+								<div class="logo-img">
+									<div class="icon-cell">
+										<img src="images/audit.png" height="52" width="69" alt="">
+									</div>
+								</div>
+							</a>
+							<div class="price">от 10 000 руб.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="design-list">
+		<div class="container-fluid design-block" id="engineering">
+			<div class="row">
+				<div class="container">
+					<div class="col-sm-3 design-logo">
+						<div class="title">проектирование</div>
+							<div class="logo-img">
+								<div class="icon-cell">
+									<img src="images/designing-blue.png" height="64" width="68" alt="">
+								</div>
+							</div>
+						<div class="price">от 10 000 руб.</div>
+					</div>
+					<div class="col-sm-5 design-text">
+						<div class="text">
+							Первое и самое сильное впечатление о компании пользователь... <br>
+							получает при посещении сайта компании. 
+							Сайт – это интерфейс,  через который Вы общаетесь с покупателем
+						</div>
+						<div class="list">
+							<ul>
+								<li>Пункт</li>
+								<li>Пункт</li>
+								<li>Пункт</li>
+							</ul>		
+						</div>
+					</div>
+					<div class="col-sm-4 design-slide">
+						<div class="design-slider">
+							<ul class="design-bx">
+								<li>
+									<a href="#"><img src="images/design-slide-2.jpg" height="162" width="275" alt=""></a>
+								</li>
+								<li>
+									<a href="#"><img src="images/design-slide-1.jpg" height="162" width="275" alt=""></a>
+								</li>
+								
+								<li>
+									<a href="#"><img src="images/design-slide-3.jpg" height="162" width="275" alt=""></a>
+								</li>
+							</ul>
+						</div>
+						<a href="#" class="order-btn">заказать</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid design-block" id="audit">
+			<div class="row">
+				<div class="container">
+					<div class="col-sm-3 design-logo">
+						<div class="title">технический аудит сайта</div>
+							<div class="logo-img">
+								<div class="icon-cell">
+									<img src="images/audit-blue.png" height="52" width="69" alt="">
+								</div>
+							</div>
+						<div class="price">от 10 000 руб.</div>
+					</div>
+					<div class="col-sm-5 design-text">
+						<div class="text">
+							Первое и самое сильное впечатление о компании пользователь... <br>
+							получает при посещении сайта компании. 
+							Сайт – это интерфейс,  через который Вы общаетесь с покупателем
+						</div>
+						<div class="list">
+							<ul>
+								<li>Пункт</li>
+								<li>Пункт</li>
+								<li>Пункт</li>
+							</ul>		
+						</div>
+					</div>
+					<div class="col-sm-4 design-slide">
+						<div class="design-slider">
+							<ul class="design-bx">
+								<li>
+									<a href="#"><img src="images/design-slide-3.jpg" height="162" width="275" alt=""></a>
+								</li>
+								<li>
+									<a href="#"><img src="images/design-slide-1.jpg" height="162" width="275" alt=""></a>
+								</li>
+								<li>
+									<a href="#"><img src="images/design-slide-2.jpg" height="162" width="275" alt=""></a>
+								</li>
+							</ul>
+						</div>
+						<a href="#" class="order-btn">заказать</a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
-</div>
+</section><!-- design -->
 
-<div class="container-fluid our-services">
-	<div class="row">
-		<header>
-			<h1>преимущества профессиональной поддержки сайта</h1>
-		</header>
-		<section class="container-fluid services-item">
-			<div class="row">
-				<div class="container services-container">
-					<div class="col-sm-4 serv-block">
-						<div class="serv-visible">
-							<div class="serv-img">
-								<div class="serv-cell">
-									<img src="images/serv-1.png" height="51" width="69" alt="">
-								</div>
-							</div>
-							<div class="serv-title">
-								создание, поддержка и <br> развитие сайтов
-							</div>
-						</div>
-						<div class="serv-desc">
-							<ul>
-								<li>Вывод сайта в топ-10</li>
-								<li>Контекстаная реклама</li>
-								<li>Социальные сети</li>
-							</ul>
-							<a href="#" class="more">Подробнее</a>
-						</div>
-					</div>
-					<div class="col-sm-4 serv-block">
-						<div class="serv-visible">
-							<div class="serv-img">
-								<div class="serv-cell">
-									<img src="images/serv-2.png" height="62" width="76" alt="">
-								</div>
-							</div>
-							<div class="serv-title">
-								продвижение и <br> реклама в интернет
-							</div>
-						</div>
-						<div class="serv-desc">
-							<ul>
-								<li>Вывод сайта в топ-10</li>
-								<li>Контекстаная реклама</li>
-								<li>Социальные сети</li>
-							</ul>
-							<a href="#" class="more">Подробнее</a>
-						</div>
-					</div>
-					<div class="col-sm-4 serv-block">
-						<div class="serv-visible">
-							<div class="serv-img">
-								<div class="serv-cell">
-									<img src="images/serv-3.png" height="50" width="71" alt="">
-								</div>
-							</div>
-							<div class="serv-title">
-								проектирование и пользовательские интерфейсы
-							</div>
-						</div>
-						<div class="serv-desc">
-							<ul>
-								<li>Вывод сайта в топ-10</li>
-								<li>Контекстаная реклама</li>
-								<li>Социальные сети</li>
-							</ul>
-							<a href="#" class="more">Подробнее</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="container-fluid services-item">
-			<div class="row">
-				<div class="container services-container">
-					<div class="col-sm-4 serv-block">
-						<div class="serv-visible">
-							<div class="serv-img">
-								<div class="serv-cell">
-									<img src="images/serv-4.png" height="65" width="68" alt="">
-								</div>
-							</div>
-							<div class="serv-title">
-								аналитика и технический аудит сайтов
-							</div>
-						</div>
-						<div class="serv-desc">
-							<ul>
-								<li>Вывод сайта в топ-10</li>
-								<li>Контекстаная реклама</li>
-								<li>Социальные сети</li>
-							</ul>
-							<a href="#" class="more">Подробнее</a>
-						</div>
-					</div>
-					<div class="col-sm-4 serv-block">
-						<div class="serv-visible">
-							<div class="serv-img">
-								<div class="serv-cell">
-									<img src="images/serv-5.png" height="67" width="40" alt="">
-								</div>
-							</div>
-							<div class="serv-title">
-								разработка мобильных приложений
-							</div>
-						</div>
-						<div class="serv-desc">
-							<ul>
-								<li>Вывод сайта в топ-10</li>
-								<li>Контекстаная реклама</li>
-								<li>Социальные сети</li>
-							</ul>
-							<a href="#" class="more">Подробнее</a>
-						</div>
-					</div>
-					<div class="col-sm-4 serv-block">
-						<div class="serv-visible">
-							<div class="serv-img">
-								<div class="serv-cell">
-									<img src="images/serv-6.png" height="70" width="66" alt="">
-								</div>
-							</div>
-							<div class="serv-title">
-								фирменные стили и <br> дизайн полиграфии
-							</div>
-						</div>
-						<div class="serv-desc">
-							<ul>
-								<li>Вывод сайта в топ-10</li>
-								<li>Контекстаная реклама</li>
-								<li>Социальные сети</li>
-							</ul>
-							<a href="#" class="more">Подробнее</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-	</div>
-</div><!-- services -->
 
 <div class="container-fluid submit flowers" id="submit-wrapper">
 	<div class="row">
@@ -275,7 +268,6 @@
 		</div>
 	</div>
 </div>
-
 <div class="container-fluid contacts">
 	<div class="row">
 		<div class="container contacts-wrapper">
@@ -352,8 +344,15 @@
 
 
 
+
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script>
+	$('.design-bx').bxSlider({
+	  pager: false
+	});
+</script>
 <script src="js/script.js"></script>
 </body>
 </html>

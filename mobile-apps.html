@@ -19,7 +19,8 @@
 	<link rel="stylesheet" href="css/main.less">
 	<link rel="stylesheet" href="css/media.css">
 	<script src="js/less.min.js"></script>
-	<script src="js/modernizr-2.8.3.min.js"></script>	
+	<script src="js/modernizr-2.8.3.min.js"></script>
+	
 </head>
 <body>
 <div class="container-fluid top-menu">
@@ -140,13 +141,13 @@
 					<div class="design-slider">
 						<ul class="design-bx">
 							<li>
-								<img src="images/design-slide-1.jpg" height="162" width="275" alt="">
+								<a href="#"><img src="images/design-slide-1.jpg" height="162" width="275" alt=""></a>
 							</li>
 							<li>
-								<img src="images/design-slide-2.jpg" height="162" width="275" alt="">
+								<a href="#"><img src="images/design-slide-2.jpg" height="162" width="275" alt=""></a>
 							</li>
 							<li>
-								<img src="images/design-slide-3.jpg" height="162" width="275" alt="">
+								<a href="#"><img src="images/design-slide-3.jpg" height="162" width="275" alt=""></a>
 							</li>
 						</ul>
 					</div>
@@ -186,13 +187,13 @@
 					<div class="design-slider">
 						<ul class="design-bx">
 							<li>
-								<img src="images/design-slide-1.jpg" height="162" width="275" alt="">
+								<a href="#"><img src="images/design-slide-1.jpg" height="162" width="275" alt=""></a>
 							</li>
 							<li>
-								<img src="images/design-slide-2.jpg" height="162" width="275" alt="">
+								<a href="#"><img src="images/design-slide-2.jpg" height="162" width="275" alt=""></a>
 							</li>
 							<li>
-								<img src="images/design-slide-3.jpg" height="162" width="275" alt="">
+								<a href="#"><img src="images/design-slide-3.jpg" height="162" width="275" alt=""></a>
 							</li>
 						</ul>
 					</div>
@@ -248,7 +249,7 @@
 				  			тестирование
 				  		</div>
 				  </a>
-				   <a data-slide-index="5" href="" class="data-slide">
+				   <a data-slide-index="5" href="" class="data-slide arrow-hide">
 				   	<span class="number-icon">
 				  			<img src="images/six.png" height="34" width="34" alt="">
 				  		</span>
@@ -404,13 +405,13 @@
 	<div class="row">
 		<div class="container contacts-wrapper">
 			<header>
-				<ul class="clearfix footer-menu">
-					<li><a href="#">наши услуги</a></li>
-					<li><a href="#">портфолио</a></li>
-					<li><a href="#">наши клиенты</a></li>
-					<li><a href="#">отзывы</a></li>
-					<li><a href="#">о нас</a></li>
-					<li><a href="#">контакты</a></li>
+				<ul class="clearfix footer-menu footer-menu-second">
+					<li><a href="#">создание сайтов</a></li>
+					<li><a href="#">продвижение сайтов</a></li>
+					<li><a href="#">проектирование интерфейсов</a></li>
+					<li><a href="#">аналитика и аудит</a></li>
+					<li><a href="#">мобильные приложения</a></li>
+					<li><a href="#">фирменный стиль</a></li>
 				</ul>
 			</header>
 			<section class="contact-item clearfix">
@@ -478,19 +479,24 @@
 
 
 
-
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.bxslider.min.js"></script>
+<script src="js/jquery.bxslider.js"></script>
 <script>
 	$('.design-bx').bxSlider({
 	  pager: false
 	});
 	$('.step-bx').bxSlider({
 	  pagerCustom: '#bx-pager',
-	  slideWidth: 825
+	  slideWidth: 825,
+	  infiniteLoop: false,
+	  speed: 400,
+	  hideControlOnEnd: true
 	});
 </script>
 <script src="js/script.js"></script>
+
+<script>
+</script>
 </body>
 </html>
