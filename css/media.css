@@ -136,6 +136,8 @@
     right: -50px;
   }
 }
+
+
 @media (max-width: 991px) {
   .promo-block .price{
     padding-left: 0;
@@ -294,6 +296,23 @@
       margin-bottom: 15px;
    }
 
+}
+
+  @media (min-width: 768px) and (max-width: 991px) { 
+    .about-block{
+    width: 135px;
+    height: 135px;
+  }
+  .about-desc-cell{
+    width: 135px;
+  }
+  .about-desc-cell .large-text{
+    font-size: 26px;
+  }
+  .about-desc-cell .large {
+    font-size: 40px;
+    line-height: 34px;
+}
 }
 @media (max-width: 767px) {
   .social-sign img{
