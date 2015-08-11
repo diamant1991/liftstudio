@@ -139,6 +139,9 @@
 
 
 @media (max-width: 991px) {
+  .table-month thead td{
+    padding: 0;
+  }
   .promo-block .price{
     padding-left: 0;
     margin-top: 10px;
@@ -315,6 +318,44 @@
 }
 }
 @media (max-width: 767px) {
+  
+  .pop-up{
+    width: 90%;
+    margin-left: -45%;
+  }
+    .pop-up header{
+      font-size: 26px;
+    }
+    .pop-up input[type="submit"]{
+      width: 90%;
+    }
+
+  .tech-container{
+    width: 100%;
+  }
+  .show-tarif{
+    width: 65%;
+  }
+  .support-icon,
+  .support-desc{
+    float: none;
+    width: 100%;
+  }
+  .table-month thead{
+    font-size: 12px;
+  }
+  .table-month tbody{
+    font-size: 12px;
+  }
+  .table-month tbody .large-text{
+    font-size: 12px;
+  }
+  .table-month tbody .large-price{
+    font-size: 14px;
+  }
+   .order-tarif{
+    font-size: 12px;
+   }
   .social-sign img{
     margin-right: 0;
   }
@@ -715,6 +756,12 @@
 		padding-left: 0px !important;
 		padding-right: 0px !important;
 	}
+  .pop-up input[type="submit"]{
+    font-size: 14px;
+  }
+  .pop-up input[type="text"]{
+    font-size: 14px;
+  }
 }
 
 @media(max-width: 650px){
@@ -743,8 +790,12 @@
     height: 85px;
   }
 
+
 }
 @media (max-width: 500px) {
+  .pop-up header{
+    font-size: 22px;
+  }
   .data-slide:nth-child(4){
     margin-left: -20px;
   }

@@ -28,6 +28,25 @@ $(function(){
 });
 
 $(document).ready(function() {
+
+  $('.get-call').click(function(){
+      $('.form-mask').fadeIn(300);
+      $('.pop-up').fadeIn(300);
+    })
+
+
+    $('.form-mask').click(function(){
+     $('.pop-up,.form-mask').fadeOut(300);
+  })
+
+  $(document).keyup(function(d) {
+      if (d.keyCode == 27) {
+          $('.form-mask').fadeOut(300);
+          $('.pop-up').fadeOut(300);
+      }
+  });
+
+
     $('.navbar-fixed-top').hover(
       function () {
         if(($('.menu-fixed').css('display')=='none')){

@@ -671,7 +671,7 @@
 						<div class="contact-text">
 							<div class="contact-cell">
 								<div class="foot-tel">8 (495) 507-86-18</div>
-								<a href="#" class="get-call">заказать обратный звонок</a>
+								<a class="get-call">заказать обратный звонок</a>
 							</div>
 						</div>
 						
@@ -726,8 +726,23 @@
 </div>
 
 
-
-
+<div class="form-mask"></div>
+<div class="pop-up">
+	<form>
+		<fieldset>
+			<header>заказать обратный звонок</header>
+			<div class="input-modal">
+				<input type="text" placeholder="Ваше имя *">
+			</div>
+			<div class="input-modal">	
+				<input type="text" placeholder="Телефон *">
+			</div>
+			<div class="input-modal">
+				<input type="submit" value="заказать обратный звонок">
+			</div>
+		</fieldset>
+	</form>
+</div>
 
 
 
@@ -744,9 +759,7 @@
 	  slideWidth: 825,
 	  infiniteLoop: false,
 	  speed: 400,
-	  hideControlOnEnd: true,
-	  onSlidePrev: function() {prev = true; pager();}
-	  onSlideNext: function() {prev = false;pager();}
+	  hideControlOnEnd: true
 	});
 </script>
 <script src="js/script.js"></script>
