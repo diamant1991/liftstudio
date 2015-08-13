@@ -1521,7 +1521,7 @@ h1:after {
   font-family: 'HelveticaNeueLight';
 }
 .promo-wrapper {
-  margin-top: 35px;
+  margin-top: 13px;
 }
 .promo-wrapper .container {
   padding-left: 140px;
@@ -1766,7 +1766,7 @@ h1:after {
 }
 .proj-text .proj-right ul {
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 16px;
 }
 .proj-text .proj-right ul li {
   float: left;
@@ -1866,12 +1866,7 @@ textarea.error {
   display: inline-block;
   font-family: 'HelveticaNeueBold';
   font-size: 20px;
-  background: -webkit-linear-gradient(#39ace1, #007db7);
-  background: -moz-linear-gradient(#39ace1, #007db7);
-  background: linear-gradient(#39ace1, #007db7);
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
+  color: #39ace1;
 }
 .red-btn {
   display: block;
