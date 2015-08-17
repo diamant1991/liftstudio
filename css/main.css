@@ -319,6 +319,22 @@ h1:after {
   background: url(../images/projects-h.png) no-repeat;
   background-position: 50%;
 }
+.about-block:hover .about-icon.year {
+  background: url(../images/year-h.png) no-repeat;
+  background-position: 50%;
+}
+.about-block:hover .about-icon.more {
+  background: url(../images/more-h.png) no-repeat;
+  background-position: 50%;
+}
+.about-block:hover .about-icon.telephone {
+  background: url(../images/telephone-h.png) no-repeat;
+  background-position: 50%;
+}
+.about-block:hover .about-icon.terms {
+  background: url(../images/terms-h.png) no-repeat;
+  background-position: 50%;
+}
 .about-block p {
   margin: 0;
 }
@@ -1733,6 +1749,9 @@ h1:after {
 .main-project img {
   max-width: 100%;
   height: auto;
+  -webkit-box-shadow: 0px 5px 18px 0px rgba(0, 0, 0, 0.33);
+  -moz-box-shadow: 0px 5px 18px 0px rgba(0, 0, 0, 0.33);
+  box-shadow: 0px 5px 18px 0px rgba(0, 0, 0, 0.33);
 }
 .proj-text {
   margin-top: 75px;
