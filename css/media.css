@@ -561,13 +561,19 @@
     margin-top: 25px;
   }
   .review-logo {
-    width: 30%;
-    height: 150px;
+    width: 120px;
+    height: 120px;
+  }
+  .review-content{
+    padding-left: 130px;
   }
   .review-desc {
-    width: 70%;
+    width: 95%;
     font-size: 16px;
     padding-left: 15px;
+  }
+  .review-desc-cell{
+    padding-top: 0;
   }
   .review-desc b {
     margin-top: 20px;

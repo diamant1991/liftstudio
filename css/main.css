@@ -518,19 +518,35 @@ h1:after {
 .review-wrapper .read-more {
   margin-top: 40px;
 }
+.review-content {
+  padding-left: 236px;
+  min-height: 240px;
+}
 .review-logo {
   width: 236px;
-  float: left;
+  height: 236px;
+  border: 1px solid #707b7b;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
   text-align: center;
+  display: table;
+  table-layout: fixed;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
 }
 .review-logo img {
   max-width: 100%;
   height: auto;
 }
+.review-logo-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
 .review-desc {
   font-family: 'HelveticaNeueLight';
   font-size: 20px;
-  float: left;
   width: 764px;
   padding-left: 30px;
   color: #323a44;
@@ -546,10 +562,11 @@ h1:after {
   margin-top: 40px;
 }
 .review-desc-cell {
-  width: 764px;
   height: 235px;
-  display: table-cell;
-  vertical-align: middle;
+  padding-top: 30px;
+}
+.review-carousel {
+  margin-top: 20px;
 }
 .girl {
   position: relative;
