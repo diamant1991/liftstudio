@@ -755,8 +755,12 @@
     padding: 40px 15px;
   }
   .my-review-logo {
-    width: 100%;
     float: none;
+    position: relative;
+    margin: auto;
+  }
+  .review-block-item{
+    padding-left: 0;
   }
   .my-review-text {
     width: 100%;

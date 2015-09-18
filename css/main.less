@@ -1541,21 +1541,10 @@ h1{
 			background: #f5fafb;
 		}
 }
-.my-review-logo{
-	float: left;
-	text-align: center;
-	width: 30%;
 
-		img{
-			max-width: 100%;
-			height: auto;
-		}
-}
 .my-review-text{
-	float: left;
 	padding-top: 10px;
 	padding-right: 40px;
-	width: 70%;
 	color: #323a44;
 	position: relative;
 	
@@ -2301,6 +2290,38 @@ textarea.error{
 			margin-bottom: 12px;
 		}
 }
+.review-block-item{
+	position: relative;
+	padding-left: 270px;
+	min-height: 245px;
+}
+.my-review-logo{
+	position: absolute;
+	left:0;
+	top:0;
+	z-index: 2;
+	width:235px;
+	height: 235px;
+	border: 1px solid #707b7b;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	text-align: center;
+	display: table;
+	overflow:hidden;
+	table-layout: fixed;
+
+
+		img{
+			max-width: 100%;
+			height: auto;
+		}
+		.logo-center{
+			display: table-cell;
+			vertical-align: middle;
+		}
+}
+
 
 .pop-up input[type="text"]::-webkit-input-placeholder {color:#000;}
 .pop-up input[type="text"]::-moz-placeholder          {color:#000;}
