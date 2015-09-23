@@ -313,6 +313,22 @@
   }
 }
 @media (max-width: 767px) {
+  .view-all-review{
+    float: none;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .gramota{
+    position: relative;
+    padding-left: 20px;
+    width: 60%;
+    margin: 20px auto;
+    padding-right: 20px;
+  }
+  .review-block-item .review-item{
+    padding-right: 0;
+  }
+
   .tech-info .col-sm-6 {
     margin-bottom: 20px;
   }

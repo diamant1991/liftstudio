@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/main.less">
 	<link rel="stylesheet" href="css/media.css">
@@ -70,18 +71,25 @@
 	<div class="container-fluid review-block">
 		<div class="row">
 			<div class="container main-container clearfix">
-				<div class="review-block-item">
+				<div class="review-block-item with-diplom">
 					<div class="my-review-logo">
 						<div class="logo-center">
 							<img src="images/logo-review.png" height="187" width="187" alt="">
 						</div>
 					</div>
-					<div class="my-review-text">
-						<p>Первое и самое сильное впечатление о компании пользователь... <br>получает при посещении сайта компании. Сайт – это интерфейс,  через который Вы общаетесь с покупателем</p>
-						<b>Первое и самое сильное впечатление о компании пользователь... </b>
-						<a href="#">посмотреть работы</a>
-						<div class="clear"></div>
+					<div class="review-item clearfix">
+						<div class="my-review-text">
+							<p>Первое и самое сильное впечатление о компании пользователь... <br>получает при посещении сайта компании. Сайт – это интерфейс,  через который Вы общаетесь с покупателем</p>
+							<b>Первое и самое сильное впечатление о компании пользователь... </b>
+							<div class="clear"></div>
+						</div>
+						<div class="gramota">
+							<a class="fancybox" href="images/gramota.jpg">
+								<img src="images/gramota.jpg" alt="">
+							</a>
+						</div>
 					</div>
+					<a href="#" class="view-all-review">посмотреть работы</a>
 				</div>
 			</div>
 		</div>
@@ -98,9 +106,9 @@
 					<div class="my-review-text">
 						<p>Первое и самое сильное впечатление о компании пользователь... <br>получает при посещении сайта компании. Сайт – это интерфейс,  через который Вы общаетесь с покупателем</p>
 						<b>Первое и самое сильное впечатление о компании пользователь... </b>
-						<a href="#">посмотреть работы</a>
 						<div class="clear"></div>
 					</div>
+					<a href="#" class="view-all-review">посмотреть работы</a>
 				</div>
 			</div>
 		</div>
@@ -124,9 +132,9 @@
 						<p>
 							Первое и самое сильное впечатление о компании пользователь... <br>получает при посещении сайта компании. Сайт – это интерфейс,  через который Вы общаетесь с покупателем
 						</p>
-						<a href="#">посмотреть работы</a>
 						<div class="clear"></div>
 					</div>
+					<a href="#" class="view-all-review">посмотреть работы</a>
 				</div>
 			</div>
 		</div>
@@ -238,6 +246,19 @@
 
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/fancybox/jquery.fancybox.pack.js"></script>
+<script>
+	$(".fancybox").fancybox({
+    	openEffect	: 'elastic',
+    	closeEffect	: 'elastic',
+
+    	helpers : {
+    		title : {
+    			type : 'inside'
+    		}
+    	}
+    });
+</script>	
 <script src="js/script.js"></script>
 </body>
 </html>

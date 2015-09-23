@@ -1410,6 +1410,22 @@ h1:after {
   margin: auto;
   display: block;
 }
+.view-all-review {
+  display: block;
+  width: 215px;
+  height: 35px;
+  line-height: 35px;
+  float: right;
+  text-transform: uppercase;
+  text-align: center;
+  color: white !important;
+  text-decoration: underline;
+  background: #323a44;
+  font-family: 'PFDinTextCondProMedium';
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-top: 45px;
+}
 .review {
   margin-top: 96px;
 }
@@ -1425,7 +1441,7 @@ h1:after {
 }
 .my-review-text {
   padding-top: 10px;
-  padding-right: 40px;
+  padding-right: 20px;
   color: #323a44;
   position: relative;
 }
@@ -1440,22 +1456,6 @@ h1:after {
   margin-top: 30px;
   display: block;
   font-weight: normal;
-}
-.my-review-text a {
-  display: block;
-  width: 215px;
-  height: 35px;
-  line-height: 35px;
-  float: right;
-  text-transform: uppercase;
-  text-align: center;
-  color: white !important;
-  text-decoration: underline;
-  background: #323a44;
-  font-family: 'PFDinTextCondProMedium';
-  font-size: 16px;
-  letter-spacing: 1px;
-  margin-top: 45px;
 }
 .my-next-link {
   background: white;
@@ -2115,6 +2115,10 @@ textarea.error {
   padding-left: 270px;
   min-height: 245px;
 }
+.review-block-item .review-item {
+  padding-right: 140px;
+  min-height: 200px;
+}
 .my-review-logo {
   position: absolute;
   left: 0;
@@ -2138,6 +2142,17 @@ textarea.error {
 .my-review-logo .logo-center {
   display: table-cell;
   vertical-align: middle;
+}
+.gramota {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+  width: 140px;
+}
+.gramota img {
+  max-width: 100%;
+  height: auto;
 }
 .pop-up input[type="text"]::-webkit-input-placeholder {
   color: black;
