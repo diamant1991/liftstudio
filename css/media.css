@@ -30,6 +30,16 @@
   }
 }
 @media (max-width: 1199px) {
+  .carousel-bx li {
+    width: 250px !important;
+  }
+  .carousel-projects .bx-wrapper{
+    max-width: 750px !important;
+  }
+
+  .news-carousel .bx-wrapper {
+      max-width: 600px !important;
+  }
   .slide-container .line img {
     width: 100%;
   }
