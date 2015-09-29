@@ -2198,5 +2198,10 @@ textarea.error {
 .single-logo {
   float: left;
   margin-left: 8px;
-  height: 300px;
+  height: 320px;
+  width: 192px;
+}
+.single-logo img {
+  max-width: 100%;
+  height: auto;
 }
