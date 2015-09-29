@@ -2195,3 +2195,8 @@ textarea.error {
   display: table-cell;
   vertical-align: middle;
 }
+.single-logo {
+  float: left;
+  margin-left: 8px;
+  height: 300px;
+}
