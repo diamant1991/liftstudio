@@ -2205,3 +2205,50 @@ textarea.error {
   max-width: 100%;
   height: auto;
 }
+.text-wrapp {
+  padding-top: 96px;
+}
+.text-container {
+  font-family: 'OpenSansRegular';
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 40px;
+}
+.text-container img {
+  float: left;
+  margin: 15px;
+  margin-left: 0;
+  max-width: 100%;
+  height: auto;
+}
+.table-container {
+  font-size: 16px;
+  margin-top: 40px;
+}
+.table-container td {
+  border: 1px solid #707b7b;
+  padding: 15px;
+  width: 300px;
+}
+.number-list {
+  list-style: decimal;
+  color: #323a44;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.number-list li {
+  margin-bottom: 5px;
+}
+.disc-style {
+  list-style: disc;
+  color: #323a44;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.disc-style li {
+  margin-bottom: 5px;
+}
