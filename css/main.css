@@ -854,6 +854,30 @@ h1:after {
 .blog-text-wrapper {
   margin: 20px 0;
 }
+.blog-text-wrapper ol {
+  list-style: decimal;
+  color: #323a44;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'MyriadProRegular';
+}
+.blog-text-wrapper ol li {
+  margin-bottom: 5px;
+}
+.blog-text-wrapper ul {
+  list-style: disc;
+  color: #323a44;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-family: 'MyriadProRegular';
+  margin-bottom: 20px;
+}
+.blog-text-wrapper ul li {
+  margin-bottom: 5px;
+}
 .next-link {
   background: #eaedee;
 }
@@ -2249,28 +2273,4 @@ textarea.error {
   border: 1px solid #707b7b;
   padding: 15px;
   width: 300px;
-}
-.number-list {
-  list-style: decimal;
-  color: #323a44;
-  font-size: 20px;
-  margin-left: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-family: 'MyriadProRegular';
-}
-.number-list li {
-  margin-bottom: 5px;
-}
-.disc-style {
-  list-style: disc;
-  color: #323a44;
-  font-size: 20px;
-  margin-left: 20px;
-  margin-top: 20px;
-  font-family: 'MyriadProRegular';
-  margin-bottom: 20px;
-}
-.disc-style li {
-  margin-bottom: 5px;
 }
